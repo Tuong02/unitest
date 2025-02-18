@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DATN\\UnitTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|c:\\datn\\unittest\\unittest\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\inputcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\inputcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\deleteaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\deleteaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\updatecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\updatecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\updateaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\updateaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\updateproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\updateproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\seacrchproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\seacrchproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\deleteproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\deleteproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\deletecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\deletecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\checknotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\checknotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|C:\\DATN\\UnitTest\\unittest\\addnotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01195E6E-DD51-4E55-9107-4478BF1C0AFF}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\addnotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\app.config",
+              "RelativeDocumentMoniker": "UnitTest\\app.config",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\app.config",
+              "RelativeToolTip": "UnitTest\\app.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-17T13:47:44.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\Login.cs",
+              "RelativeDocumentMoniker": "UnitTest\\Login.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\Login.cs",
+              "RelativeToolTip": "UnitTest\\Login.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T16:05:10.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateProduct.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\UpdateProduct.cs",
+              "RelativeDocumentMoniker": "UnitTest\\UpdateProduct.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\UpdateProduct.cs",
+              "RelativeToolTip": "UnitTest\\UpdateProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T17:57:46.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateCategory.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\UpdateCategory.cs",
+              "RelativeDocumentMoniker": "UnitTest\\UpdateCategory.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\UpdateCategory.cs",
+              "RelativeToolTip": "UnitTest\\UpdateCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:26:43.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCategory.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\AddCategory.cs",
+              "RelativeDocumentMoniker": "UnitTest\\AddCategory.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\AddCategory.cs",
+              "RelativeToolTip": "UnitTest\\AddCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:28:53.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteAccount.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\DeleteAccount.cs",
+              "RelativeDocumentMoniker": "UnitTest\\DeleteAccount.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\DeleteAccount.cs",
+              "RelativeToolTip": "UnitTest\\DeleteAccount.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T15:17:17.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\Order.cs",
+              "RelativeDocumentMoniker": "UnitTest\\Order.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\Order.cs",
+              "RelativeToolTip": "UnitTest\\Order.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwIwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:13:03.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Setup.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\Setup.cs",
+              "RelativeDocumentMoniker": "UnitTest\\Setup.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\Setup.cs",
+              "RelativeToolTip": "UnitTest\\Setup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T15:00:43.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputCart.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\InputCart.cs",
+              "RelativeDocumentMoniker": "UnitTest\\InputCart.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\InputCart.cs",
+              "RelativeToolTip": "UnitTest\\InputCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:49:03.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateAccount.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\UpdateAccount.cs",
+              "RelativeDocumentMoniker": "UnitTest\\UpdateAccount.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\UpdateAccount.cs",
+              "RelativeToolTip": "UnitTest\\UpdateAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:43:50.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddProduct.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\AddProduct.cs",
+              "RelativeDocumentMoniker": "UnitTest\\AddProduct.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\AddProduct.cs",
+              "RelativeToolTip": "UnitTest\\AddProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:18:26.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SeacrchProduct.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\SeacrchProduct.cs",
+              "RelativeDocumentMoniker": "UnitTest\\SeacrchProduct.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\SeacrchProduct.cs",
+              "RelativeToolTip": "UnitTest\\SeacrchProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:27:25.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteProduct.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\DeleteProduct.cs",
+              "RelativeDocumentMoniker": "UnitTest\\DeleteProduct.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\DeleteProduct.cs",
+              "RelativeToolTip": "UnitTest\\DeleteProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:27:48.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteCategory.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\DeleteCategory.cs",
+              "RelativeDocumentMoniker": "UnitTest\\DeleteCategory.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\DeleteCategory.cs",
+              "RelativeToolTip": "UnitTest\\DeleteCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:27:34.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CheckNotify.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\CheckNotify.cs",
+              "RelativeDocumentMoniker": "UnitTest\\CheckNotify.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\CheckNotify.cs",
+              "RelativeToolTip": "UnitTest\\CheckNotify.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:27:56.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddNotify.cs",
+              "DocumentMoniker": "C:\\DATN\\UnitTest\\UnitTest\\AddNotify.cs",
+              "RelativeDocumentMoniker": "UnitTest\\AddNotify.cs",
+              "ToolTip": "C:\\DATN\\UnitTest\\UnitTest\\AddNotify.cs",
+              "RelativeToolTip": "UnitTest\\AddNotify.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T12:28:46.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\UnitTest.dll.config
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Buffers.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Memory.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Text.Json.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.ValueTuple.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\WebDriver.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\WebDriver.Support.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Buffers.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Memory.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Text.Json.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.ValueTuple.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\WebDriver.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\WebDriver.Support.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.AssemblyReference.cache
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.Up2Date
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Enums.NET.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\ExtendedNumerics.BigDecimal.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\MathNet.Numerics.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.Core.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\SixLabors.Fonts.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\SixLabors.ImageSharp.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Security.AccessControl.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Pkcs.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Enums.NET.pdb
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Enums.NET.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\ExtendedNumerics.BigDecimal.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\MathNet.Numerics.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.Core.pdb
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.Core.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.pdb
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.pdb
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.pdb
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\SixLabors.Fonts.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\SixLabors.ImageSharp.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Security.AccessControl.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\pcgosei\source\repos\UnitTest\UnitTest\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\UnitTest.dll.config
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Enums.NET.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\ExtendedNumerics.BigDecimal.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\MathNet.Numerics.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.Core.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\SixLabors.Fonts.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\SixLabors.ImageSharp.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Buffers.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Memory.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Security.AccessControl.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Pkcs.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Text.Json.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.ValueTuple.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\WebDriver.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\WebDriver.Support.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Enums.NET.pdb
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Enums.NET.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\ExtendedNumerics.BigDecimal.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\MathNet.Numerics.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.Core.pdb
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.Core.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.pdb
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.pdb
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.pdb
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\SixLabors.Fonts.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\SixLabors.ImageSharp.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Buffers.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Memory.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Security.AccessControl.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Text.Json.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\System.ValueTuple.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\WebDriver.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\bin\Debug\WebDriver.Support.xml
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.Up2Date
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\PC\OneDrive - Hanoi University of Mining and Geology\Máy tính\ĐATN\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\UnitTest\UnitTest\bin\Debug\UnitTest.dll.config
+D:\UnitTest\UnitTest\bin\Debug\UnitTest.dll
+D:\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
+D:\UnitTest\UnitTest\bin\Debug\BouncyCastle.Cryptography.dll
+D:\UnitTest\UnitTest\bin\Debug\Enums.NET.dll
+D:\UnitTest\UnitTest\bin\Debug\ExtendedNumerics.BigDecimal.dll
+D:\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\UnitTest\UnitTest\bin\Debug\MathNet.Numerics.dll
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\UnitTest\UnitTest\bin\Debug\NPOI.Core.dll
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.dll
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.dll
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\UnitTest\UnitTest\bin\Debug\SixLabors.Fonts.dll
+D:\UnitTest\UnitTest\bin\Debug\SixLabors.ImageSharp.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Buffers.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Memory.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Numerics.Vectors.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Security.AccessControl.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Pkcs.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Security.Principal.Windows.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Text.Encodings.Web.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Text.Json.dll
+D:\UnitTest\UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\UnitTest\UnitTest\bin\Debug\System.ValueTuple.dll
+D:\UnitTest\UnitTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\UnitTest\UnitTest\bin\Debug\WebDriver.dll
+D:\UnitTest\UnitTest\bin\Debug\WebDriver.Support.dll
+D:\UnitTest\UnitTest\bin\Debug\BouncyCastle.Cryptography.xml
+D:\UnitTest\UnitTest\bin\Debug\Enums.NET.pdb
+D:\UnitTest\UnitTest\bin\Debug\Enums.NET.xml
+D:\UnitTest\UnitTest\bin\Debug\ExtendedNumerics.BigDecimal.xml
+D:\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\UnitTest\UnitTest\bin\Debug\MathNet.Numerics.xml
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\UnitTest\UnitTest\bin\Debug\NPOI.Core.pdb
+D:\UnitTest\UnitTest\bin\Debug\NPOI.Core.xml
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.pdb
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.xml
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.pdb
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.xml
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.pdb
+D:\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.xml
+D:\UnitTest\UnitTest\bin\Debug\SixLabors.Fonts.xml
+D:\UnitTest\UnitTest\bin\Debug\SixLabors.ImageSharp.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Buffers.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Memory.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Numerics.Vectors.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Security.AccessControl.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Pkcs.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Security.Principal.Windows.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Text.Encoding.CodePages.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Text.Encodings.Web.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Text.Json.xml
+D:\UnitTest\UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\UnitTest\UnitTest\bin\Debug\System.ValueTuple.xml
+D:\UnitTest\UnitTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\UnitTest\UnitTest\bin\Debug\WebDriver.xml
+D:\UnitTest\UnitTest\bin\Debug\WebDriver.Support.xml
+D:\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.AssemblyReference.cache
+D:\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+D:\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.Up2Date
+D:\UnitTest\UnitTest\obj\Debug\UnitTest.dll
+D:\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
+D:\UnitTest\UnitTest\bin\Debug\selenium-manager\linux\selenium-manager
+D:\UnitTest\UnitTest\bin\Debug\selenium-manager\macos\selenium-manager
+D:\UnitTest\UnitTest\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\DATN\UnitTest\UnitTest\bin\Debug\selenium-manager\linux\selenium-manager
+C:\DATN\UnitTest\UnitTest\bin\Debug\selenium-manager\macos\selenium-manager
+C:\DATN\UnitTest\UnitTest\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\UnitTest.dll.config
+C:\DATN\UnitTest\UnitTest\bin\Debug\UnitTest.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\UnitTest.pdb
+C:\DATN\UnitTest\UnitTest\bin\Debug\BouncyCastle.Cryptography.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\Enums.NET.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\ExtendedNumerics.BigDecimal.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\MathNet.Numerics.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.Core.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\SixLabors.Fonts.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\SixLabors.ImageSharp.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Buffers.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Memory.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Numerics.Vectors.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Security.AccessControl.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Pkcs.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Security.Principal.Windows.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Text.Encodings.Web.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Text.Json.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.ValueTuple.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\WebDriver.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\WebDriver.Support.dll
+C:\DATN\UnitTest\UnitTest\bin\Debug\BouncyCastle.Cryptography.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\Enums.NET.pdb
+C:\DATN\UnitTest\UnitTest\bin\Debug\Enums.NET.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\ExtendedNumerics.BigDecimal.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\DATN\UnitTest\UnitTest\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\MathNet.Numerics.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.Core.pdb
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.Core.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.pdb
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OOXML.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.pdb
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXml4Net.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.pdb
+C:\DATN\UnitTest\UnitTest\bin\Debug\NPOI.OpenXmlFormats.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\SixLabors.Fonts.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\SixLabors.ImageSharp.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Buffers.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Memory.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Numerics.Vectors.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Security.AccessControl.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Security.Principal.Windows.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Text.Encodings.Web.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Text.Json.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\System.ValueTuple.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\WebDriver.xml
+C:\DATN\UnitTest\UnitTest\bin\Debug\WebDriver.Support.xml
+C:\DATN\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.AssemblyReference.cache
+C:\DATN\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\DATN\UnitTest\UnitTest\obj\Debug\UnitTest.csproj.Up2Date
+C:\DATN\UnitTest\UnitTest\obj\Debug\UnitTest.dll
+C:\DATN\UnitTest\UnitTest\obj\Debug\UnitTest.pdb
