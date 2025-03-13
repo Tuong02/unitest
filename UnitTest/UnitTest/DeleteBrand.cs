@@ -1,16 +1,19 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NPOI.SS.UserModel;
+using NPOI.XSSF.UserModel;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.IO;
 using System.Threading;
 
 namespace UnitTest
 {
     [TestClass]
-    public class DeleteProduct
+    public class DeleteBrand
     {
         [TestMethod]
-        public void TestDeleteProduc()
+        public void TestDeleteBrand()
         {
             Setup setup = new Setup();
             IWebDriver driver = setup.SetupChromeDriver();
@@ -25,26 +28,26 @@ namespace UnitTest
             passwordField.SendKeys("@dmIn12");
             IWebElement login = driver.FindElement(By.CssSelector(".css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
             login.Click();
-            Thread.Sleep(4000);
+            Thread.Sleep(10000);
 
-            IWebElement element = driver.FindElement(By.XPath("//div[@role='button' and .//div[text()='Sản phẩm']]"));
+            // click button brand
+            IWebElement element = wait.Until(d => d.FindElement(By.LinkText("Thương hiệu")));
             element.Click();
+            Thread.Sleep(5000);
+
+            IWebElement chose = driver.FindElements(By.CssSelector(".MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-19fss5u-MuiButtonBase-root-MuiIconButton-root"))[4];
+            chose.Click();
             Thread.Sleep(500);
 
-            IWebElement listProduct = driver.FindElement(By.CssSelector("a[href='/dashboard/app/products/list']"));
-            listProduct.Click();
-            Thread.Sleep(15000);
-
-            IWebElement buttons = driver.FindElements(By.CssSelector(".css-19fss5u-MuiButtonBase-root-MuiIconButton-root"))[5];
-            buttons.Click();
+            IWebElement deleteButton = driver.FindElement(By.XPath("//span[text()='Xóa']"));
+            deleteButton.Click();
             Thread.Sleep(1000);
-
-            IWebElement menuItems = driver.FindElements(By.CssSelector(".css-1q30owf-MuiButtonBase-root-MuiListItem-root-MuiMenuItem-root"))[2];
-            menuItems.Click();
-            Thread.Sleep(500);
 
             IWebElement saveButton = driver.FindElement(By.XPath("//button[span[text()='Lưu']]"));
             saveButton.Click();
+            Thread.Sleep(500);
+
+            Console.WriteLine("Xóa thành công");
 
             driver.Quit();
         }

@@ -47,7 +47,7 @@ namespace UnitTest
                 Console.WriteLine("File không tồn tại.");
                 return;
             }
-
+            //Tạo workbook từ excel
             using (FileStream fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
             {
                 IWorkbook workbook = new XSSFWorkbook(fileStream);
@@ -87,9 +87,16 @@ namespace UnitTest
                         // Kiểm tra độ dài của tên danh mục
                         Thread.Sleep(1000);
                         int vnlLength = vnlField.GetAttribute("value").Length;
-                        if (vnlLength >= 6 && vnlLength <= 25)
+                        int nameLength = nameField.GetAttribute("value").Length;
+
+                        if (vnlLength >= 6 && nameLength >= 1)
                         {
                             row.CreateCell(2).SetCellValue("Pass");
+                            addButton.Click();
+                        }
+                        else if (vnlLength >= 6 && nameLength == 0)
+                        {
+                            row.CreateCell(2).SetCellValue("Fail_Hệ thống vẫn cho phép để trống trường mô tả");
                             addButton.Click();
                         }
                         else

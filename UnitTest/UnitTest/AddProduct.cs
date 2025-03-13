@@ -18,24 +18,24 @@ namespace UnitTest
             Setup setup = new Setup();
             IWebDriver driver = setup.SetupChromeDriver();
             WebDriverWait wait = setup.CreateWebDriverWait(driver);
-            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
 
-            //Đăng nhập vào hệ thống 
-            IWebElement loginButton = wait.Until(d => d.FindElement(By.CssSelector("li.header__opstion--item.account div.header__opstion--link")));
+            // Đăng nhập vào hệ thống
+            IWebElement loginButton = wait.Until(d => d.FindElement(By.CssSelector(".MuiBox-root.css-1wenov3")));
             loginButton.Click();
-            IWebElement emailField = driver.FindElement(By.Id("normal_login_email"));
-            emailField.SendKeys("nguyenvancuong13102001t@gmail.com");
-            IWebElement passwordField = driver.FindElement(By.Id("normal_login_password"));
-            passwordField.SendKeys("1991210a");
-            IWebElement login = driver.FindElement(By.CssSelector("button[type='submit']"));
+            IWebElement emailField = driver.FindElement(By.CssSelector(".MuiOutlinedInput-input.MuiInputBase-input.css-i46v6x-MuiInputBase-input-MuiOutlinedInput-input"));
+            emailField.SendKeys("admin");
+            IWebElement passwordField = driver.FindElement(By.Name("password"));
+            passwordField.SendKeys("@dmIn12");
+            IWebElement login = wait.Until(d => d.FindElement(By.CssSelector(".css-1o3ev6r-MuiButtonBase-root-MuiButton-root")));
             login.Click();
-            Thread.Sleep(4000);
-            IWebElement element = driver.FindElement(By.LinkText("Sản phẩm"));
-            element.Click();
-            Thread.Sleep(3000);
+            Thread.Sleep(5000);
 
-            string filePath = @"E:\datainputandouput.xlsx";
+            // Chuyển đến trang sản phẩm
+            IWebElement product = driver.FindElement(By.XPath("//div[@role='button' and .//div[text()='Sản phẩm']]"));
+            product.Click();
+            Thread.Sleep(1000);
 
+            string filePath = @"C:\DATN\datainputandouput.xlsx";
             if (!File.Exists(filePath))
             {
                 Console.WriteLine("File không tồn tại.");
@@ -44,123 +44,214 @@ namespace UnitTest
 
             using (FileStream fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
             {
-                // Tạo workbook từ file Excel
                 IWorkbook workbook = new XSSFWorkbook(fileStream);
-                ISheet sheet = workbook.GetSheetAt(7); // Lấy sheet 8
+                ISheet sheet = workbook.GetSheetAt(7);
 
-                for (int i = 1; i <= sheet.LastRowNum; i++) // Bắt đầu từ 1 nếu hàng đầu tiên là tiêu đề
+                for (int i = 1; i <= sheet.LastRowNum; i++)
                 {
                     IRow row = sheet.GetRow(i);
                     if (row != null)
                     {
-                        IWebElement firstRow = wait.Until(d => d.FindElement(By.XPath("//tbody/tr[1]")));
-                        IWebElement detailButton = driver.FindElement(By.XPath(".//button[contains(., 'Chi tiết')]"));
-                        detailButton.Click();
+                        IWebElement addProduct = driver.FindElement(By.CssSelector("a[href='/dashboard/app/products/create']"));
+                        addProduct.Click();
                         Thread.Sleep(2000);
 
-                        // Lấy tiêu đề và text hiển thị từ các ô
-                        string name = row.GetCell(0)?.ToString(); // Giả sử tiêu đề ở cột 0
-                        string weight = row.GetCell(1)?.ToString(); // Giả sử text hiển thị ở cột 1
-                        string brand = row.GetCell(2)?.ToString(); // Giả sử text hiển thị ở cột 2
-                        string quatity = row.GetCell(3)?.ToString(); // Giả sử text hiển thị ở cột 3
-                        string price = row.GetCell(4)?.ToString(); // Giả sử text hiển thị ở cột 4
-                        string detail = row.GetCell(5)?.ToString(); // Giả sử text hiển thị ở cột 5
+                        string productName = row.GetCell(0)?.ToString();
+                        string skuCode = row.GetCell(1)?.ToString();
+                        string productType = row.GetCell(2)?.ToString();
+                        string productQuantity = row.GetCell(3)?.ToString();
+                        string productWarranty = row.GetCell(4)?.ToString();
+                        string productIntroduce = row.GetCell(5)?.ToString();
+                        string productPrice = row.GetCell(6)?.ToString();
+                        string productPriceTT = row.GetCell(7)?.ToString();
+                        string productImages = row.GetCell(8)?.ToString();
 
-                        IWebElement nameField = driver.FindElement(By.Id("name"));
-                        nameField.Clear(); // Xóa trường nếu có giá trị cũ
-                        nameField.SendKeys(name);
+                        IWebElement nameField = driver.FindElement(By.Name("name"));
+                        nameField.SendKeys(Keys.Control + "a");
+                        nameField.SendKeys(Keys.Delete);
+                        nameField.SendKeys(productName);
 
-                        IWebElement weightField = driver.FindElement(By.Id("weight"));
-                        weightField.Clear(); // Xóa trường nếu có giá trị cũ
-                        weightField.SendKeys(weight);
+                        IWebElement codeField = driver.FindElement(By.Name("sku"));
+                        codeField.SendKeys(Keys.Control + "a");
+                        codeField.SendKeys(Keys.Delete);
+                        codeField.SendKeys(skuCode);
 
-                        IWebElement brandField = driver.FindElement(By.Name("brand"));
-                        brandField.Clear(); // Xóa trường nếu có giá trị cũ
-                        brandField.SendKeys(brand);
+                        IWebElement typeField = driver.FindElement(By.Name("variantName"));
+                        typeField.SendKeys(Keys.Control + "a");
+                        typeField.SendKeys(Keys.Delete);
+                        typeField.SendKeys(productType);
 
+                        IWebElement quantityField = driver.FindElement(By.Name("quantity"));
+                        quantityField.SendKeys(Keys.Control + "a");
+                        quantityField.SendKeys(Keys.Delete);
+                        quantityField.SendKeys(productQuantity);
+
+                        IWebElement warrantyField = driver.FindElement(By.Name("warrantyPeriod"));
+                        warrantyField.SendKeys(Keys.Control + "a");
+                        warrantyField.SendKeys(Keys.Delete);
+                        warrantyField.SendKeys(productWarranty);
+
+                        IWebElement introduceField = driver.FindElement(By.CssSelector("div.ql-editor"));
+                        introduceField.SendKeys(Keys.Control + "a");
+                        introduceField.SendKeys(Keys.Delete);
+                        introduceField.SendKeys(productIntroduce);
+
+                        // brand
+                        IWebElement inputElement = driver.FindElements(By.CssSelector("input[aria-autocomplete='list']"))[1];
+                        inputElement.Click();
+                        inputElement.SendKeys(Keys.Delete);
+                        IWebElement option = driver.FindElement(By.XPath($"//li[contains(text(), 'Samsung')]"));
+                        option.Click();
+
+                        // category
+                        IWebElement categoryField = driver.FindElements(By.CssSelector("input[aria-autocomplete='list']"))[2];
+                        categoryField.Click();
+                        categoryField.SendKeys(Keys.Delete);
+                        IWebElement options = driver.FindElement(By.XPath($"//li[contains(text(), 'Laptop')]"));
+                        options.Click();
+
+                        // price
                         IWebElement priceField = driver.FindElement(By.Name("price"));
-                        priceField.Clear(); // Xóa trường nếu có giá trị cũ
-                        priceField.SendKeys(price);
+                        priceField.SendKeys(Keys.Control + "a");
+                        priceField.SendKeys(Keys.Delete);
+                        priceField.SendKeys(productPrice);
 
-                        IWebElement detailField = driver.FindElement(By.Name("detail"));
-                        detailField.Clear(); // Xóa trường nếu có giá trị cũ
-                        detailField.SendKeys(detail);
+                        // priceTT
+                        IWebElement priceAllField = driver.FindElement(By.Name("marketPrice"));
+                        priceAllField.SendKeys(Keys.Control + "a");
+                        priceAllField.SendKeys(Keys.Delete);
+                        priceAllField.SendKeys(productPriceTT);
 
-                        //IWebElement changeButton = driver.FindElement(By.CssSelector(".label__change__image input[type='file']"));
-                        //string imagePath = @"C:\Users\pcgosei\Downloads\img.png";
-                        //changeButton.SendKeys(imagePath);
-                        //Assert.IsTrue(File.Exists(imagePath));
+                        // enter image
+                        IWebElement imageField = driver.FindElements(By.CssSelector(".MuiSwitch-input.PrivateSwitchBase-input.css-mraihx"))[0];
+                        imageField.Click();
+                        IWebElement urlInput = driver.FindElements(By.CssSelector(".MuiOutlinedInput-input.MuiInputBase-input.css-i46v6x-MuiInputBase-input-MuiOutlinedInput-input"))[2];
+                        urlInput.SendKeys(productImages);
 
-                        IWebElement dateInput = driver.FindElement(By.CssSelector("input[placeholder='Select date']"));
-
-                        string currentDateTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-
-                        js.ExecuteScript("arguments[0].value='" + currentDateTime + "'; arguments[0].dispatchEvent(new Event('input'));", dateInput);
-                        js.ExecuteScript("arguments[0].dispatchEvent(new Event('change'));", dateInput);
-
-                        IWebElement addButton = driver.FindElement(By.XPath("//button[span[text()='Thêm mới']]"));
-                        addButton.Click();
-                        Thread.Sleep(1000);
-                        // Kiểm tra kết quả 
-                        Thread.Sleep(1000);
-
-                        if (nameField.GetAttribute("value").Length > 0 && weightField.GetAttribute("value").Length > 0 && brandField.GetAttribute("value").Length > 0 && priceField.GetAttribute("value").Length > 0 && detailField.GetAttribute("value").Length > 0)
+                        if (productName.Length == 0)
                         {
-                            if (nameField.GetAttribute("value").Length < 50 && brandField.GetAttribute("value").Length < 50 && detailField.GetAttribute("value").Length < 50)
-                            {
-                                if (!System.Text.RegularExpressions.Regex.IsMatch(weight, @"^\d+$"))
-                                {
-                                    Console.WriteLine("Hệ thống vẫn cho phép nhập sai định dạng trường cân nặng");
-                                    row.CreateCell(6).SetCellValue("Fail_Hệ thống vẫn cho phép nhập sai định dạng trường cân nặng "); // Giả sử ghi vào cột 2
-                                }
-                                else if (!System.Text.RegularExpressions.Regex.IsMatch(quatity, @"^\d+$"))
-                                {
-                                    Console.WriteLine("Hệ thống vẫn cho phép nhập sai định dạng trường số lượng");
-                                    row.CreateCell(6).SetCellValue("Fail_Hệ thống vẫn cho phép nhập sai định dạng trường số lượng "); // Giả sử ghi vào cột 2
-                                }
-                                else if (!System.Text.RegularExpressions.Regex.IsMatch(price, @"^\d+$"))
-                                {
-                                    Console.WriteLine("Hệ thống vẫn cho phép nhập sai định dạng trường giá gốc");
-                                    row.CreateCell(6).SetCellValue("Fail_Hệ thống vẫn cho phép nhập sai định dạng trường giá gốc "); // Giả sử ghi vào cột 2
-                                }
-                                else
-                                {
-                                    try
-                                    {
-                                        IWebElement notificationMessage = driver.FindElement(By.XPath("//div[@role='alert']/div[2]"));
-                                        string messageText = notificationMessage.Text;
-                                        Console.WriteLine("Notification Message: " + messageText);
-                                        row.CreateCell(6).SetCellValue("Pass"); // Giả sử ghi vào cột 2
-                                    }
-                                    catch (WebDriverTimeoutException)
-                                    {
-                                        Console.WriteLine("Không có toast xuất hiện.");
-                                        row.CreateCell(6).SetCellValue("Fail"); // Giả sử ghi vào cột 2
-                                    }
-                                }
-                            }
-                            else
-                            {
-                                Console.WriteLine("Hệ thống vẫn cho nhập quá 50 kí tự vào các trường thông tin");
-                                row.CreateCell(6).SetCellValue("Fail_Hệ thống vẫn cho phép nhập quá 50 kí tự vào các trường thông tin"); // Ghi vào cột 2 
-                            }
+                            row.CreateCell(9).SetCellValue("Pass");
+                        }
+                        else if (productName.Length > 25)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép nhập quá 25 ký tự");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (skuCode.Length == 0)
+                        {
+                            row.CreateCell(9).SetCellValue("Pass");
+                        }
+                        else if (productType.Length == 0)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép bỏ trống");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (productType.Length > 25)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép nhập quá 25 ký tự");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (productQuantity.Length == 0)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép bỏ trống");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (productQuantity.Length >= 25)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép nhập quá 25 ký tự");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+
+                        //else if (productQuantity <= 0)
+                        else if (productWarranty.Length == 0)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép bỏ trống");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (productWarranty.Length >= 25)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép nhập quá 25 ký tự");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (productIntroduce.Length == 0)
+                        {
+                            row.CreateCell(9).SetCellValue("Pass");
+                        }
+                        else if (productIntroduce.Length >= 50)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép nhập quá 50 ký tự");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (productPrice.Length == 0)
+                        {
+                            row.CreateCell(9).SetCellValue("Pass");
+                        }
+                        else if (productPrice.Length >= 25)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép nhập quá 25 ký tự");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (productPriceTT.Length == 0)
+                        {
+                            row.CreateCell(9).SetCellValue("Pass");
+                        }
+                        else if (productPriceTT.Length >= 25)
+                        {
+                            row.CreateCell(9).SetCellValue("Fail_Hệ thống vẫn cho phép nhập quá 25 ký tự");
+                            // click add button
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
+                        }
+                        else if (productImages.Length == 0)
+                        {
+                            row.CreateCell(9).SetCellValue("Pass");
                         }
                         else
                         {
-                            Console.WriteLine("Hệ thống vẫn cho để trống các trường thông tin");
-                            row.CreateCell(6).SetCellValue("Fail_Hệ thống vẫn cho phép để trống các trường thông tin"); // Ghi vào cột 2 
-                        }
-
-                        // Lưu lại file Excel sau khi ghi kết quả
-                        using (FileStream writeStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
-                        {
-                            workbook.Write(writeStream);
+                            row.CreateCell(9).SetCellValue("Pass");
+                            IWebElement addButton = driver.FindElement(By.CssSelector("button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeLarge.MuiButton-containedSizeLarge.MuiButton-fullWidth.MuiButtonBase-root.css-1o3ev6r-MuiButtonBase-root-MuiButton-root"));
+                            addButton.Click();
+                            Thread.Sleep(5000);
                         }
 
                     }
                 }
-                driver.Quit();
+
+                using (FileStream writeStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
+                {
+                    workbook.Write(writeStream);
+                }
             }
+
+            driver.Quit();
         }
     }
 }

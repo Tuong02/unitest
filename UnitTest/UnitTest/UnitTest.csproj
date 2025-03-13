@@ -154,22 +154,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBrand.cs" />
+    <Compile Include="AddCart.cs" />
     <Compile Include="AddCategory.cs" />
-    <Compile Include="AddNotify.cs" />
+    <Compile Include="DeleteBrand.cs" />
     <Compile Include="AddProduct.cs" />
-    <Compile Include="CheckNotify.cs" />
-    <Compile Include="CLickCart.cs" />
     <Compile Include="DeleteAccount.cs" />
+    <Compile Include="DeleteCart.cs" />
     <Compile Include="DeleteCategory.cs" />
     <Compile Include="DeleteProduct.cs" />
-    <Compile Include="InputCart.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeacrchProduct.cs" />
     <Compile Include="Search.cs" />
     <Compile Include="Setup.cs" />
-    <Compile Include="UpdateAccount.cs" />
+    <Compile Include="UpdateBrand.cs" />
     <Compile Include="UpdateCategory.cs" />
     <Compile Include="UpdateProduct.cs" />
   </ItemGroup>

@@ -15,9 +15,9 @@ namespace UnitTest
         [TestMethod]
         public void TestLogin()
         {
-            string filePath =@"C:\DATN\datainputandouput.xlsx";
-            Setup setup = new Setup();
-            IWebDriver driver = setup.SetupChromeDriver();
+            string filePath =@"C:\DATN\datainputandouput.xlsx";       //Đường dẫn excel
+            Setup setup = new Setup();                                  
+            IWebDriver driver = setup.SetupChromeDriver();              //khởi tạo webdriver cho chrome
             WebDriverWait wait = setup.CreateWebDriverWait(driver);
 
             if (!File.Exists(filePath))
